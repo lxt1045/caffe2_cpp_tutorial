@@ -7,7 +7,6 @@ find_package(Eigen3 REQUIRED)
 find_package(OpenCV REQUIRED)
 find_package(cURL QUIET)
 find_package(CUDA QUIET)
-#find_package(Threads)
 find_package(Threads)
 
 include_directories(include)
